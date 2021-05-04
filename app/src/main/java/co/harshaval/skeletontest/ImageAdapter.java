@@ -1,4 +1,4 @@
-package co.raveblue.skeletontest;
+package co.harshaval.skeletontest;
 
 import android.content.Context;
 import android.view.View;
@@ -17,7 +17,7 @@ public class ImageAdapter extends BaseAdapter {
         this.imImageIds = imImageIds;
         imContext = con;
     }
-
+    
     @Override
     public int getCount() {
         return imImageIds.length;
