@@ -41,7 +41,8 @@ public class MainActivity extends LiveCameraActivity implements AdapterView.OnIt
 
     ImageView viewImage;
     private static final String API_KEY = "3ba0db460d37449a844ad5da3308e63d";
-
+    
+    //Initializing the predictor parameters
     FritzVisionPosePredictor predictor;
     FritzVisionImage visionImage;
     FritzVisionPoseResult poseResult;
@@ -89,6 +90,11 @@ public class MainActivity extends LiveCameraActivity implements AdapterView.OnIt
 
         }
     }
+    
+    /*As in the activity referenced, these are the inialization files 
+    for the Fritz AI implementation to use the prediction model to initialize and build 
+    keypoints and poses to accurately model and simulate the images in the main activity.
+    */
 
     @Override
     protected void initializeFritz() {
