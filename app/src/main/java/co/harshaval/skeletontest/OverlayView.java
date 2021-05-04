@@ -1,4 +1,4 @@
-package co.raveblue.skeletontest;
+package co.harshaval.skeletontest;
 
 import android.content.Context;
 import android.graphics.Canvas;
